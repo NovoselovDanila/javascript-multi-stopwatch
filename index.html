@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="styles/stopwatch.css">
+	<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Baloo Chettan 2' rel='stylesheet'>
+</head>
+<body class='container'>
+  <div class="row">
+    <div class="container-fluid baloo-font">
+      <h1 class="page-header text-center">MULTIPLE STOPWATCH</h1>
+      <form class="text-center">
+        <input id='title' type="text" class="baloo-font" placeholder="Enter Title for Stopwatch ...">
+        <input id="addWatch-btn" type="submit" class="baloo-font" value="ADD">
+        <button id="removeAll_btn">REMOVE ALL</button>
+      </form>
+      <hr>
+    </div>
+  </div>
+  <div id="stopwatches">
+  </div>
+  <script src="scripts/stopwatch.js"></script>
+</body>
+</html>
